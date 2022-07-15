@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.6.1');
+  api.versionsFrom('2.7.3');
   api.use('ecmascript');
   api.use('igoandtrack:machines-collection');
   api.mainModule('methods-machines.js', 'server');
